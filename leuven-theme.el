@@ -324,14 +324,6 @@ more...")
    `(ediff-odd-diff-A ((,class (:background "light grey"))))
    `(ediff-odd-diff-B ((,class (:background "light grey"))))
 
-   ;; Flyspell.
-   (if (version< emacs-version "24.4")
-       `(flyspell-duplicate ((,class (:underline "#F4EB80" :inherit nil))))
-     `(flyspell-duplicate ((,class (:underline (:style wave :color "#F4EB80") :background "#FAF7CC" :inherit nil)))))
-   (if (version< emacs-version "24.4")
-       `(flyspell-incorrect ((,class (:underline "#FAA7A5" :inherit nil))))
-     `(flyspell-incorrect ((,class (:underline (:style wave :color "#FAA7A5") :background "#F4D7DA":inherit nil)))))
-
    ;; ;; Semantic faces.
    ;; `(semantic-decoration-on-includes ((,class (:underline ,cham-4))))
    ;; `(semantic-decoration-on-private-members-face ((,class (:background ,alum-2))))
